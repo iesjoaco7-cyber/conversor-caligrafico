@@ -92,3 +92,8 @@ python motor.py "Hola, ¿cómo estás?" -o hola.png --estilo 2 --tinta Turquesa 
 
 Fuentes de Google Fonts bajo SIL Open Font License (ver `fonts/OFL.txt`): Pinyon Script, Great Vibes y Alex Brush.
 Proyecto inspirado en la estructura de [JapaneseMiniProject](https://github.com/luedu1103/JapaneseMiniProject).
+
+## Licencia
+
+El código está bajo licencia [MIT](LICENSE): podés usarlo, modificarlo y compartirlo libremente.
+Las fuentes tienen su propia licencia libre (SIL Open Font License, ver `fonts/OFL.txt`).
