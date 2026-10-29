@@ -42,24 +42,30 @@ conversor-caligrafico/
 
 ## Cómo Usar
 
-1. Instalá Python 3.10 o superior (en Windows y macOS ya trae Tkinter; en Linux: `sudo apt install python3-tk`).
-2. Instalá las dependencias:
+1. **Descargá el proyecto:** botón verde **Code → Download ZIP** y descomprimilo.
+   (O con git: `git clone https://github.com/iesjoaco7-cyber/conversor-caligrafico.git`)
+2. **Instalá Python 3.10 o superior** desde [python.org](https://www.python.org/downloads/).
+   En Windows, marcá la casilla **"Add python.exe to PATH"** durante la instalación.
+3. **Abrí una terminal en la carpeta del proyecto** (donde está `app.py`) e instalá las dependencias:
    ```bash
-   pip install -r requirements.txt
+   python -m pip install -r requirements.txt
    ```
-3. Ejecutá la aplicación:
+4. **Ejecutá la aplicación:**
    ```bash
    python app.py
    ```
-4. Escribí en el cuadro de texto y observá cómo se convierte en letra de pluma.
+5. Escribí en el cuadro de texto y observá cómo se convierte en letra de pluma.
+
+> **Windows:** si aparece *"no se encontró Python"* o *"python no se reconoce"*, usá `py` en lugar de `python`
+> (`py -m pip install -r requirements.txt` y `py app.py`).
+>
+> **Linux:** si falta Tkinter, instalalo con `sudo apt install python3-tk`.
 
 También se puede usar desde la terminal, sin interfaz:
 
 ```bash
 python motor.py "Hola, ¿cómo estás?" -o hola.png --estilo 2 --tinta Turquesa --papel Liso
 ```
-
-## Ejemplos
 
 | | |
 |---|---|
